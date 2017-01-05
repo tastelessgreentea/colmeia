@@ -25,6 +25,10 @@ xcuserdata
 # CocoaPods
 Pods/
 
+## App Environment
+environment.plist
+environment_preprocess.h
+
 ## Other
 *.xccheckout
 *.moved-aside

@@ -7,5 +7,6 @@ target 'colmeia' do
   pod 'RxSwift',    '3.1.0'
   pod 'RxCocoa',    '3.1.0'
   pod 'SnapKit',    '3.1.2'
+  pod 'Parse',      '1.14.2'
 
 end

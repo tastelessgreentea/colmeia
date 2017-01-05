@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>environment</key>
+	<string>DEV</string>
+	<key>appName</key>
+	<string>ColDEV</string>
+	<key>parseInfo</key>
+	<dict>
+		<key>appID</key>
+		<string>SU0myMIe1AUitLKar0mum8My8RbQ87lEaRjjKDgh</string>
+		<key>clientKey</key>
+		<string>Fttez4PLMZOJbNty4lfT8QYcSj28worpNdoYxicO</string>
+		<key>server</key>
+		<string>https://parseapi.back4app.com/</string>
+	</dict>
+</dict>
+</plist>
