@@ -9,6 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
         launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        let env = Environment.shared
         window = UIWindow(frame: UIScreen.main.bounds)
         guard let window = self.window else {
             return false
