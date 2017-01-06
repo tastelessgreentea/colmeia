@@ -2,6 +2,7 @@ PODS:
   - Bolts/Tasks (1.8.4)
   - Parse (1.14.2):
     - Bolts/Tasks (~> 1.8)
+  - Runes (4.0.1)
   - RxCocoa (3.1.0):
     - RxSwift (~> 3.1)
   - RxSwift (3.1.0)
@@ -9,6 +10,7 @@ PODS:
 
 DEPENDENCIES:
   - Parse (= 1.14.2)
+  - Runes (= 4.0.1)
   - RxCocoa (= 3.1.0)
   - RxSwift (= 3.1.0)
   - SnapKit (= 3.1.2)
@@ -16,10 +18,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
   RxCocoa: 50d7564866da9299161e86a263ce12a0873904d8
   RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
   SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
 
-PODFILE CHECKSUM: 49f520dadc4ab68eada3c4333220642f7649c22e
+PODFILE CHECKSUM: 7ae5a2065d64b6e2365d1bf1721df05c2718aab3
 
 COCOAPODS: 1.1.1

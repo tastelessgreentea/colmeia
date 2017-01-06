@@ -21,6 +21,7 @@ For style and convetions the tool being used is Swiftlint, the version currently
 * RXSwift as the reactive programming library;
 * RXCocoa to enhance the UIKit components so that it is easier to work in a declarative form instead of the default imperative way full of delegates;
 * Snapkit, which is a DSL for autolayouting programatically.
+* Runes, set of functional operators.
 
 ### Environments
 There is a concept of environments thought Xcode Schemas. The setup was based on the following [guide](http://www.blackdogfoundry.com/blog/migrating-ios-app-through-multiple-environments/).
