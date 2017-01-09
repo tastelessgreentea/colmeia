@@ -6,7 +6,7 @@ extension Int {
         static let secondsInMinutes = 60
     }
 
-    func times<T>( closure: () -> T) -> [T] {
+    func times<T>(closure: () -> T) -> [T] {
         return (0 ..< self).map { _ in closure() }
     }
 }
