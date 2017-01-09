@@ -61,7 +61,8 @@ struct ParseInfo {
     let server: String
 
     init(environmentDictionary: [String: AnyObject]) {
-        guard let parseDictionary = environmentDictionary[Keys.parseInfoKey] as? [String: AnyObject],
+        guard let parseDictionary = environmentDictionary[Keys.parseInfoKey]
+            as? [String: AnyObject],
             let appID = parseDictionary[Keys.appIDKey] as? String,
             let clientKey = parseDictionary[Keys.clientKey] as? String ,
             let server = parseDictionary[Keys.serverKey] as? String else {

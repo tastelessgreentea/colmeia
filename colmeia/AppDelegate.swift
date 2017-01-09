@@ -1,4 +1,5 @@
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -9,15 +10,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
         launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        let env = Environment.shared
         window = UIWindow(frame: UIScreen.main.bounds)
         guard let window = self.window else {
             return false
         }
 
+        let navigationController = UINavigationController()
+        navigationController.viewControllers = [InstructorListViewController()]
         window.backgroundColor = CoreStyle.color.white
-        window.rootViewController = UIViewController()
-        window.rootViewController?.view.backgroundColor = CoreStyle.color.red
+        window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
         return true

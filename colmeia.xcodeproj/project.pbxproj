@@ -29,6 +29,17 @@
 		528AD2441E1D5C1600133782 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AD2431E1D5C1600133782 /* UIColor.swift */; };
 		528AD2461E1D5C3500133782 /* CoreStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AD2451E1D5C3500133782 /* CoreStyle.swift */; };
 		52E111D91E1EBF01003E71BD /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111D81E1EBF01003E71BD /* Environment.swift */; };
+		52E111DC1E21E8C2003E71BD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111DB1E21E8C2003E71BD /* APIClient.swift */; };
+		52E111DF1E21EC20003E71BD /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111DE1E21EC20003E71BD /* Instructor.swift */; };
+		52E111E61E21FBA5003E71BD /* InstructorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111E51E21FBA5003E71BD /* InstructorListViewController.swift */; };
+		52E111E81E21FBB5003E71BD /* InstructorListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111E71E21FBB5003E71BD /* InstructorListViewModel.swift */; };
+		52E111EB1E230AAB003E71BD /* InstructorListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111EA1E230AAB003E71BD /* InstructorListItemViewModel.swift */; };
+		52E111EE1E231863003E71BD /* InstructorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111ED1E231863003E71BD /* InstructorListCell.swift */; };
+		52E111F11E2337C8003E71BD /* InstructorRatingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111F01E2337C8003E71BD /* InstructorRatingLabel.swift */; };
+		52E111F41E236DE8003E71BD /* InstructorRatingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111F31E236DE8003E71BD /* InstructorRatingStars.swift */; };
+		52E111F61E236E4E003E71BD /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111F51E236E4E003E71BD /* Int.swift */; };
+		52E111F91E237D08003E71BD /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111F81E237D08003E71BD /* Animations.swift */; };
+		52E111FD1E23BB26003E71BD /* CenteredScaledProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E111FC1E23BB26003E71BD /* CenteredScaledProfileImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +67,17 @@
 		528AD2431E1D5C1600133782 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		528AD2451E1D5C3500133782 /* CoreStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreStyle.swift; sourceTree = "<group>"; };
 		52E111D81E1EBF01003E71BD /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		52E111DB1E21E8C2003E71BD /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		52E111DE1E21EC20003E71BD /* Instructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
+		52E111E51E21FBA5003E71BD /* InstructorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorListViewController.swift; sourceTree = "<group>"; };
+		52E111E71E21FBB5003E71BD /* InstructorListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorListViewModel.swift; sourceTree = "<group>"; };
+		52E111EA1E230AAB003E71BD /* InstructorListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorListItemViewModel.swift; sourceTree = "<group>"; };
+		52E111ED1E231863003E71BD /* InstructorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorListCell.swift; sourceTree = "<group>"; };
+		52E111F01E2337C8003E71BD /* InstructorRatingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorRatingLabel.swift; sourceTree = "<group>"; };
+		52E111F31E236DE8003E71BD /* InstructorRatingStars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorRatingStars.swift; sourceTree = "<group>"; };
+		52E111F51E236E4E003E71BD /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		52E111F81E237D08003E71BD /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		52E111FC1E23BB26003E71BD /* CenteredScaledProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteredScaledProfileImage.swift; sourceTree = "<group>"; };
 		5C3C1EE3C11DF65D9DF2A343 /* Pods_colmeia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colmeia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1F4DF27889CF6FE87F1173 /* Pods-colmeia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colmeia.release.xcconfig"; path = "Pods/Target Support Files/Pods-colmeia/Pods-colmeia.release.xcconfig"; sourceTree = "<group>"; };
 		F46A7A02EE5F1E3A05EF9C89 /* Pods-colmeia.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colmeia.qa.xcconfig"; path = "Pods/Target Support Files/Pods-colmeia/Pods-colmeia.qa.xcconfig"; sourceTree = "<group>"; };
@@ -127,9 +149,15 @@
 		52505D7D1E1D3189004FC8E6 /* colmeia */ = {
 			isa = PBXGroup;
 			children = (
+				52E111F71E237CE1003E71BD /* helpers */,
 				52502F801E1D949F003D4B54 /* environments */,
 				528AD23F1E1D5B8100133782 /* styleguide */,
 				528AD2401E1D5B8E00133782 /* extensions */,
+				52E111DA1E21E1C6003E71BD /* network */,
+				52E111DD1E21EAF0003E71BD /* models */,
+				52E111E11E21F999003E71BD /* viewcontrollers */,
+				52E111E21E21F9A8003E71BD /* viewmodels */,
+				52E111E91E22112A003E71BD /* views */,
 				52505D7E1E1D3189004FC8E6 /* AppDelegate.swift */,
 				52505D851E1D3189004FC8E6 /* Assets.xcassets */,
 				52505D871E1D3189004FC8E6 /* LaunchScreen.storyboard */,
@@ -150,8 +178,93 @@
 			isa = PBXGroup;
 			children = (
 				528AD2431E1D5C1600133782 /* UIColor.swift */,
+				52E111F51E236E4E003E71BD /* Int.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		52E111DA1E21E1C6003E71BD /* network */ = {
+			isa = PBXGroup;
+			children = (
+				52E111DB1E21E8C2003E71BD /* APIClient.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		52E111DD1E21EAF0003E71BD /* models */ = {
+			isa = PBXGroup;
+			children = (
+				52E111DE1E21EC20003E71BD /* Instructor.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		52E111E11E21F999003E71BD /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				52E111E31E21FB4D003E71BD /* instructorlist */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		52E111E21E21F9A8003E71BD /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				52E111E41E21FB5B003E71BD /* instructorlist */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		52E111E31E21FB4D003E71BD /* instructorlist */ = {
+			isa = PBXGroup;
+			children = (
+				52E111E51E21FBA5003E71BD /* InstructorListViewController.swift */,
+			);
+			path = instructorlist;
+			sourceTree = "<group>";
+		};
+		52E111E41E21FB5B003E71BD /* instructorlist */ = {
+			isa = PBXGroup;
+			children = (
+				52E111E71E21FBB5003E71BD /* InstructorListViewModel.swift */,
+				52E111EA1E230AAB003E71BD /* InstructorListItemViewModel.swift */,
+			);
+			path = instructorlist;
+			sourceTree = "<group>";
+		};
+		52E111E91E22112A003E71BD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				52E111FB1E23BAB1003E71BD /* components */,
+				52E111EC1E231821003E71BD /* instructorlist */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		52E111EC1E231821003E71BD /* instructorlist */ = {
+			isa = PBXGroup;
+			children = (
+				52E111ED1E231863003E71BD /* InstructorListCell.swift */,
+				52E111F01E2337C8003E71BD /* InstructorRatingLabel.swift */,
+				52E111F31E236DE8003E71BD /* InstructorRatingStars.swift */,
+			);
+			path = instructorlist;
+			sourceTree = "<group>";
+		};
+		52E111F71E237CE1003E71BD /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52E111F81E237D08003E71BD /* Animations.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		52E111FB1E23BAB1003E71BD /* components */ = {
+			isa = PBXGroup;
+			children = (
+				52E111FC1E23BB26003E71BD /* CenteredScaledProfileImage.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +425,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E111EE1E231863003E71BD /* InstructorListCell.swift in Sources */,
+				52E111F61E236E4E003E71BD /* Int.swift in Sources */,
 				528AD2461E1D5C3500133782 /* CoreStyle.swift in Sources */,
+				52E111E61E21FBA5003E71BD /* InstructorListViewController.swift in Sources */,
+				52E111FD1E23BB26003E71BD /* CenteredScaledProfileImage.swift in Sources */,
 				52E111D91E1EBF01003E71BD /* Environment.swift in Sources */,
 				528AD2441E1D5C1600133782 /* UIColor.swift in Sources */,
+				52E111F91E237D08003E71BD /* Animations.swift in Sources */,
+				52E111F41E236DE8003E71BD /* InstructorRatingStars.swift in Sources */,
+				52E111EB1E230AAB003E71BD /* InstructorListItemViewModel.swift in Sources */,
+				52E111DC1E21E8C2003E71BD /* APIClient.swift in Sources */,
+				52E111E81E21FBB5003E71BD /* InstructorListViewModel.swift in Sources */,
+				52E111F11E2337C8003E71BD /* InstructorRatingLabel.swift in Sources */,
+				52E111DF1E21EC20003E71BD /* Instructor.swift in Sources */,
 				52505D7F1E1D3189004FC8E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +526,7 @@
 				INFOPLIST_FILE = colmeia/Info.plist;
 				INFOPLIST_PREFIX_HEADER = colmeia/environment_preprocess.h;
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitormakoto.colmeia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +662,7 @@
 				INFOPLIST_FILE = colmeia/Info.plist;
 				INFOPLIST_PREFIX_HEADER = colmeia/environment_preprocess.h;
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitormakoto.colmeia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,7 +679,7 @@
 				INFOPLIST_FILE = colmeia/Info.plist;
 				INFOPLIST_PREFIX_HEADER = colmeia/environment_preprocess.h;
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vitormakoto.colmeia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
